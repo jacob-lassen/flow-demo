@@ -1,0 +1,21 @@
+{
+  "name": "flowdemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "rambda": "^1.1.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-flow": "^6.23.0",
+    "flow-bin": "^0.73.0"
+  },
+  "scripts": {
+    "build": "node_modules/.bin/babel src/ -d lib/",
+    "flow": "./node_modules/.bin/flow",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
